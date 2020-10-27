@@ -1,6 +1,6 @@
-CREATE SCHEMA StudentGradesExample;
+CREATE DATABASE IF NOT EXISTS StudentGradesExample;
 
-SET search_path TO StudentGradesExample;
+\c StudentGradesExample
 
 CREATE TABLE GradeRanges (
   GradeRangeID int NOT NULL, 

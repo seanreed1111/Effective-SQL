@@ -1,5 +1,5 @@
 -- This requires that the tables from StudentsGradesStructure.sql be created first.
-SET search_path TO StudentGradesExample;
+\c StudentGradesExample
 
 INSERT INTO Students (StudentID, StudentFirstNM, StudentLastNM) VALUES (1, 'Ben', 'Clothier');
 INSERT INTO Students (StudentID, StudentFirstNM, StudentLastNM) VALUES (2, 'John', 'Viescas');
