@@ -1,0 +1,14 @@
+---
+    Title: SQL Problems from Entertainment Database
+    Standards:
+      -
+        Title: Entertainment Database
+        UID: 1479706e-97c9-11ea-8f01-60f81dc9f21e
+        Description: Part 1
+        SuccessCriteria:
+          - Solve SQL challenges
+        ContentFiles:
+          -
+            Type: Lesson
+            UID: 14797046-97c9-11ea-9c62-60f81dc9f21e
+            Path: /challenges/beer1.md
