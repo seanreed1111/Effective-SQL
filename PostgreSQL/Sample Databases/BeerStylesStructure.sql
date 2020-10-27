@@ -1,6 +1,7 @@
-CREATE SCHEMA BeerStylesExample;
+-- CREATE SCHEMA BeerStylesExample;
 
-SET search_path TO BeerStylesExample;
+CREATE DATABASE IF NOT EXISTS BeerStylesExample;
+\c BeerStylesExample
 
 CREATE TABLE Categories (
   CategoryID int NOT NULL, 

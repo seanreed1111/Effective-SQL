@@ -1,6 +1,7 @@
 -- This requires that the tables from BeerStylesStructure.sql be created first.
 
-SET search_path TO BeerStylesExample;
+\c BeerStylesExample
+
 
 INSERT INTO Categories (CategoryID, CategoryDS) VALUES (1, 'British or Irish Ales');
 INSERT INTO Categories (CategoryID, CategoryDS) VALUES (2, 'European Ales');
