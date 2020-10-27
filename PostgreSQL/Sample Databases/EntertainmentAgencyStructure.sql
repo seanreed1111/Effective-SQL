@@ -1,6 +1,6 @@
-CREATE SCHEMA EntertainmentAgencySample;
+CREATE DATABASE IF NOT EXISTS EntertainmentAgencySample;
 
-SET search_path TO EntertainmentAgencySample;
+\c EntertainmentAgencySample;
 
 CREATE TABLE Agents (
 	AgentID serial NOT NULL ,

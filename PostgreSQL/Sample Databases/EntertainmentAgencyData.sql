@@ -1,6 +1,6 @@
 -- This requires that the tables from EntertainmentAgencyStructure.sql be created first.
 
-SET search_path TO EntertainmentAgencySample;
+\c EntertainmentAgencySample;
 
 INSERT INTO Customers
   (CustomerID, CustFirstName, CustLastName, CustStreetAddress, 
