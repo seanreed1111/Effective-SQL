@@ -1,6 +1,6 @@
-CREATE SCHEMA BowlingLeagueSample;
+CREATE DATABASE IF NOT EXISTS BowlingLeagueSample;
+\c BowlingLeagueSample
 
-SET search_path TO BowlingLeagueSample;
 
 CREATE TABLE Bowler_Scores (
 	MatchID int NOT NULL DEFAULT 0 ,

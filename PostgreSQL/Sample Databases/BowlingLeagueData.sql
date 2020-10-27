@@ -1,6 +1,6 @@
 -- This requires that the tables from BowlingLeagueStructure.sql be created first.
 
-SET search_path TO BowlingLeagueSample;
+\c BowlingLeagueSample;
 
 INSERT INTO Tournaments
   (TourneyID, TourneyDate, TourneyLocation)
