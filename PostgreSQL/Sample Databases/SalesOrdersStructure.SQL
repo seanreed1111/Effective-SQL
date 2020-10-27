@@ -1,6 +1,6 @@
-CREATE SCHEMA SalesOrdersSample;
+CREATE DATABASE IF NOT EXISTS SalesOrdersSample;
 
-SET search_path TO SalesOrdersSample;
+\c SalesOrdersSample
 
 CREATE TABLE Categories (
 	CategoryID serial NOT NULL ,

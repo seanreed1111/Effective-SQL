@@ -1,6 +1,6 @@
 -- This requires that the tables from SalesOrdersStructure.sql be created first.
 
-SET search_path TO SalesOrdersSample;
+\c SalesOrdersSample
 
 INSERT INTO Customers
   (CustomerID, CustFirstName, CustLastName, CustStreetAddress, 
