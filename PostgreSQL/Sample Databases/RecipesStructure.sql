@@ -1,6 +1,6 @@
-CREATE SCHEMA RecipesSample;
+CREATE DATABASE IF NOT EXISTS RecipesSample;
 
-SET search_path TO RecipesSample;
+\c RecipesSample
 
 CREATE TABLE Ingredient_Classes (
 	IngredientClassID smallint NOT NULL DEFAULT 0 ,
